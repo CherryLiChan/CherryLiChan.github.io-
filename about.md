@@ -3,44 +3,37 @@ layout: page
 title: 关于我 
 ---
 
-一个 iOS SDK 开发者，喜欢研究一些新技术。
-<p>
-平时喜欢整理个人博客，逛逛技术论坛。
-<p>
-了解一些 前端 基本概念和 Python 的简单用法。
+<h3> 个人简介 </h3>  
 
+我叫黎婵，是中山大学南方学院<a target="_blank" href="http://nfsysu.cn/">-文学与传媒学院<a target="_blank" href="http://wcy.nfu.edu.cn/zh/%e9%a6%96%e9%a1%b5/">-网络与新媒体专业<a target="_blank" href="http://wcy.nfu.edu.cn/zh/%e5%ad%a6%e9%99%a2%e6%a6%82%e5%86%b5/%e6%96%b0%e9%97%bb%e4%b8%8e%e6%96%b0%e5%aa%92%e4%bd%93%e7%b3%bb/">的一名学生。
 <p>
-
-所在公司
-<a target="_blank" href="https://www.talkingdata.com/"> TalkingData </a>
-是一个移动互联网大数据平台的公司，无论你是运营、产品、开发 或者是App终端用户都可以了解下我们公司。
+目前在班内担任学习委员一职，而且是廖汉腾老师任教的《网络与新媒体技术与协作》一课的课程助理。
 <p>
-
-推荐一个我维护的 Team 博客
-<a target="_blank" href="http://talkingdata.me/"> voyagelab </a>
-里面有一些关于 iOS 、Android 和 机器学习 的文章。
+所学技能：公众号运营与管理/摄影摄像/乒乓球/PS/AI/Python/C语言/office高级应用/网页设计与制作/信息可视化（tableau的操作）等。
 
 <p>
 
-<h3> 我们的博客 </h3>  
+所获证书/奖项：院记者团优秀记者/优秀班干部/中山大学南方学院优秀学生二等奖/四级证书/驾驶证
 
 <p>
 
-是的，这个博客是我们大家的，目前已经有很大一部分人在使用我的博客模板了，我也很高兴大家使用我的模板。
+<h3> 回顾与展望 </h3>  
 
 <p>
 
-如果你想搭建一个跟我一样的博客，可以看我的 
-<a href="/2016/10/jekyll_tutorials1/"> Jekyll 搭建个人博客 </a>
-教程
+回顾2017：
 
 <p>
 
-有关于博客主题的建议和意见都可以提给我，让我们一起来打造一个精美的主题吧~ 
+。。。
 
-<p> 
+<p>
 
-博客源码在 <a target="_blank" href='https://github.com/leopardpan/leopardpan.github.io/'>Github</a> 上，你的 Star 是我更新的动力，谢谢~
+展望2018：
+
+<p>
+
+。。。
 
 <p> 
 
