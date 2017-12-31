@@ -10,14 +10,13 @@ url: "https://cherrylichan.github.io"
 
 # Comment
 comment:
-    disqus: Cherry
+    disqus: 161013049
     # uyan: 2143225  # 有言id,登录有言官网申请
 
 # Social
 social:
     weibo: 949524419@qq.com 
     github: cherrylichan
-    # twitter: 
     mail: 1161046889@qq.com
 
 permalink: /:year/:month/:title/
@@ -35,8 +34,8 @@ blog_button:
 
 # Navigation buttons in the front page.s
 nav:
-    - {title: 所有文章, description: archive, url: '/archive'}   
-    - {title: 标签, description: tags, url: '/tags'}      
+    - {title: 文章目录, description: archive, url: '/archive'}   
+    - {title: 分类, description: tags, url: '/tags'}      
     - {title: 关于我, description: about, url: '/about'}      
     
 
