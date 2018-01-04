@@ -6,18 +6,19 @@ tags: 网页设计与制作-笔记
 ---
 
 ## Week15课堂笔记——WSG4第十二章
-## 可用网址
+
+### 可用网址
 - [简书上媒介融合/媒体融合/全媒体 Media convergence介绍——by喊疼](http://www.jianshu.com/p/fa4f07dcb669)
 - [AOL美国在线](https://www.aol.com/)
 
 ### 笔记
 - `就业`全媒体编辑（记者、工作者）
-> 老师说可作为第一份工作
+`老师说可作为第一份工作`
 - `案例`协同效应
-> AOL美国在线
+`AOL美国在线`
 - `概念`结构洞
 - `概念`alt（ALTERNATIVES替代方案）
-> alt=" "
+`alt=" "`
 - transcriber
 - `概念`SWOT
 
