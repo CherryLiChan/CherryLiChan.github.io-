@@ -31,7 +31,7 @@ tag: 搭建博客那些事儿
 	</div>
 	<div>
 		<h3>二、优化缩减百分比:</h3>
-			<p class="svg_insert">1.优化SVG文件的最简单的方法是使用自动化工具，推荐使用SVGOMG（https://jakearchibald.github.io/svgomg/）。</p>
+			<p class="svg_insert">1.优化SVG文件的最简单的方法是使用自动化工具，推荐使用[SVGOMG](https://jakearchibald.github.io/svgomg/)。</p>
 			<p class="svg_opt">2.命名空间往往只是在生成SVG的程序中使用，所以在Web页面上展示SVG的时候它们并不是必需的。因此在优化流程中，为了减小SVG的大小，通常会把它的命名空间去掉。</p>
 			<p class="svg_opt">3.去掉不需要的元素（如标题和描述元素）</p>
 			<p class="svg_opt">4.g标签有助于图形编辑软件再次打开这个图像，因此这一部分无需去除</p>
