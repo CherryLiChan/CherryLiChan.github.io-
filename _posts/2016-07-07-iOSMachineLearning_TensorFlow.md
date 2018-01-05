@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "增加打赏功能"
+title: "加分项"
 date: 2018-01-03 11:15:06 
-description: "为博客增加打赏功能"
+description: "加分"
 tag: 搭建博客那些事儿
 
 ---
