@@ -27,7 +27,7 @@ tag: 搭建博客那些事儿
 			<p class="svg_insert">5.通过CSS插入背景图像</p>
 			<p class="svg_insert">5.使用 JavaScript 添加 SVG 动画</p>
 			<p class="svg_insert">5.GreenSock 添加 SVG 动画</p>
-			<img  src="../images/posts/Week16_CSS3过渡、变形和动画/每种插入方式中你可以使用的功能.png" alt="每种插入方式中你可以使用的功能 png" />
+			<img  src="../images/posts/Week16_CSS3过渡、变形和动画//每种插入方式中你可以使用的功能.png" alt="每种插入方式中你可以使用的功能 png" />
 	</div>
 	<div>
 		<h3>二、优化缩减百分比:</h3>
