@@ -175,7 +175,7 @@ tag: 搭建博客那些事儿
 		<image src="/images/posts/Week16_CSS3过渡、变形和动画/wcy_logo(new)2.svg" onmouseover="b();" id="a">
 		<script>
 			function b(){
-			document.getElementById('a').src="pacman.ico";
+			document.getElementById('a').src="/images/posts/Week16_CSS3过渡、变形和动画/pacman.ico";
 			}
 		</script>
 	</div>
