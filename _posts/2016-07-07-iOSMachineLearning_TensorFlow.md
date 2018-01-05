@@ -1,12 +1,12 @@
 ---
-layout: post
+
 title: "加分项"
 date: 2018-01-03 11:15:06 
 description: "WCY LOGO的改进"
 tag: 搭建博客那些事儿
 
 ---
-<!doctype html>
+
 <html class="no-js" lang="en">
 <head>
 	<meta charset="utf-8">
@@ -14,7 +14,7 @@ tag: 搭建博客那些事儿
 	<meta name="description" content="改进文传院WCY LOGO并加过渡及动画的特效">
 	<meta name="viewport" content="width=device-width">
 	<meta name="theme-color" content="#cc99cc">
-	<link rel="stylesheet" href="/css/styles.css">
+	<link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
 	<h1>WCY LOGO的改进</h1>
