@@ -2,11 +2,20 @@
 layout: post
 title: "加分项"
 date: 2018-01-03 11:15:06 
-description: "加分"
+description: "WCY LOGO的改进"
 tag: 搭建博客那些事儿
 
 ---
-
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>SVG加分作业_by黎婵</title>
+	<meta name="description" content="改进文传院WCY LOGO并加过渡及动画的特效">
+	<meta name="viewport" content="width=device-width">
+	<meta name="theme-color" content="#cc99cc">
+	<link rel="stylesheet" href="/css/styles.css">
+</head>
 <body>
 	<h1>WCY LOGO的改进</h1>
 	<div>
@@ -18,7 +27,7 @@ tag: 搭建博客那些事儿
 			<p class="svg_insert">5.通过CSS插入背景图像</p>
 			<p class="svg_insert">5.使用 JavaScript 添加 SVG 动画</p>
 			<p class="svg_insert">5.GreenSock 添加 SVG 动画</p>
-			<img  src="每种插入方式中你可以使用的功能.png" alt="每种插入方式中你可以使用的功能 png" />
+			<img  src="../images/posts/Week16_CSS3过渡、变形和动画/每种插入方式中你可以使用的功能.png" alt="每种插入方式中你可以使用的功能 png" />
 	</div>
 	<div>
 		<h3>二、优化缩减百分比:</h3>
@@ -35,11 +44,11 @@ tag: 搭建博客那些事儿
 	</div>
 	<div>
 		<h3>使用 img 标签插入SVG:</h3>
-		<img id="svgImg" src="wcy_logo(new)2.svg" alt="wcy_logo(new)2 SVG" />
+		<img id="svgImg" src="/images/posts/Week16_CSS3过渡、变形和动画/wcy_logo(new)2.svg" alt="wcy_logo(new)2 SVG" />
 	</div>
 	<div>
 		<h3>使用 object 标签插入SVG:</h3>
-		<object id="svgObject" data="wcy_logo(new)2.svg" type="image/svg+xml">
+		<object id="svgObject" data="/images/posts/Week16_CSS3过渡、变形和动画/wcy_logo(new)2.svg" type="image/svg+xml">
 			Your browser doesn't support SVG
 		</object>
 	</div>
@@ -69,7 +78,7 @@ tag: 搭建博客那些事儿
 
 		<svg>
 			<use xlink:href="#shapeInline" x="50" y="50" />
-			<use xlink:href="wcy_logo(new)2.svg#shape" x="200" y="50" />
+			<use xlink:href="/images/posts/Week16_CSS3过渡、变形和动画/wcy_logo(new)2.svg#shape" x="200" y="50" />
 		</svg>
 		<script>
 
@@ -99,7 +108,7 @@ tag: 搭建博客那些事儿
 					<feGaussianBlur in="A" stdDeviation="6"/>
 			  </filter>
 		 </defs>
-		 <image x="0" y="0" height="250px" width="250px" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="wcy_logo(new)2.svg" filter="url(#myfilter)"></image>
+		 <image x="0" y="0" height="250px" width="250px" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/images/posts/Week16_CSS3过渡、变形和动画/wcy_logo(new)2.svg" filter="url(#myfilter)"></image>
 	</svg>
 	</div>
 	<div class="wrapper">
@@ -143,13 +152,13 @@ tag: 搭建博客那些事儿
 	<div>
 		<h3>使用图像来作链接:</h3>
 			<a href="http://wcx.nfu.edu.cn/" class='link'>
-				<img border="0" src="wcy_logo(new)2.svg" />
+				<img border="0" src="/images/posts/Week16_CSS3过渡、变形和动画/wcy_logo(new)2.svg" />
 			</a>
 	</div>
 
 	<div>
 		<h3>当鼠标经过图片时，logo旋转90°:</h3>
-		<img id="xuanzhuan" src="wcy_logo(new)2.svg" class='pic'>
+		<img id="xuanzhuan" src="/images/posts/Week16_CSS3过渡、变形和动画/wcy_logo(new)2.svg" class='pic'>
 		<style type='css/text'>
 		.pic:hover{
 			transform:rotate(90deg);
@@ -163,7 +172,7 @@ tag: 搭建博客那些事儿
 
 	<div>
 		<h3>当鼠标经过图片时，logo变成成其他图片:</h3>
-		<image src="wcy_logo(new)2.svg" onmouseover="b();" id="a">
+		<image src="/images/posts/Week16_CSS3过渡、变形和动画/wcy_logo(new)2.svg" onmouseover="b();" id="a">
 		<script>
 			function b(){
 			document.getElementById('a').src="pacman.ico";
@@ -175,7 +184,7 @@ tag: 搭建博客那些事儿
 		<h3>当鼠标经过图片时，logo覆盖多一层文字字幕:</h3>
 		<ul>
 			<li>
-			<img src="wcy_logo(new)2.svg" width="300" height="300" alt="">
+			<img src="/images/posts/Week16_CSS3过渡、变形和动画/wcy_logo(new)2.svg" width="300" height="300" alt="">
 				<div class="cover">
 					<a href=""><i class="fa fa-plus"></i></a>
 					<h4>wcy</h4>
@@ -188,30 +197,30 @@ tag: 搭建博客那些事儿
 	<div>
 		<h3>CSS 的 2D 变形:</h3>
 		<nav>
-			<image src="wcy_logo(new)2.svg" class="scale" >
-			<image src="wcy_logo(new)2.svg" class="translate" >
-			<image src="wcy_logo(new)2.svg" class="rotate" >
-			<image src="wcy_logo(new)2.svg" class="skew" >
-			<image src="wcy_logo(new)2.svg" class="matrix" >
+			<image src="/images/posts/Week16_CSS3过渡、变形和动画/wcy_logo(new)2.svg" class="scale" >
+			<image src="/images/posts/Week16_CSS3过渡、变形和动画/wcy_logo(new)2.svg" class="translate" >
+			<image src="/images/posts/Week16_CSS3过渡、变形和动画/wcy_logo(new)2.svg" class="rotate" >
+			<image src="/images/posts/Week16_CSS3过渡、变形和动画/wcy_logo(new)2.svg" class="skew" >
+			<image src="/images/posts/Week16_CSS3过渡、变形和动画/wcy_logo(new)2.svg" class="matrix" >
 		</nav>
 	</div>
 	
 	<div class="flipper">
 		<h3>CSS 的 3D 变形之垂直变化:</h3>
 		<span class="flipper-object flipper-vertical">
-			<image src="wcy_logo(new)2.svg" >
+			<image src="/images/posts/Week16_CSS3过渡、变形和动画/wcy_logo(new)2.svg" >
 		</span>
 	</div>
 
 	<div class="flipper">
 	<h3>CSS 的 3D 变形之水平变化:</h3>
 		<span class="flipper-object flipper-horizontal">
-			<image src="wcy_logo(new)2.svg" >
+			<image src="/images/posts/Week16_CSS3过渡、变形和动画/wcy_logo(new)2.svg" >
 		</span>
 	</div>
 
 </body>
-
+</html>
 
 
 转载请注明：[黎婵的博客](https://cherrylichan.github.io) » [点击阅读原文](https://cherrylichan.github.io//2018/01/增加打赏功能/)     
