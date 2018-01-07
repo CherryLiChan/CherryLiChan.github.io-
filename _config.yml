@@ -1,14 +1,14 @@
-# Basic
+# Basic（标题/副标题/描述）
 title: 黎婵
 subtitle: 个人blog
 description: 欢迎来到我的个人blog~
 # 头像里面的标题
 avatarTitle: 161013049
 # 头像里面的描述
-avatarDesc: 网页设计与制作 / 信息可视化
+avatarDesc: 网页设计与制作/信息可视化
 url: "https://cherrylichan.github.io"
 
-# Comment
+# Comment（添加评论系统）
 comment:
     disqus: 161013049
     # uyan: 2143225  # 有言id,登录有言官网申请
@@ -20,7 +20,7 @@ social:
     mail: 1161046889@qq.com
 
 permalink: /:year/:month/:title/
-# Format
+# Format  荧光笔是圆的 
 highlighter: rouge
 
 textColor: #FF0000
