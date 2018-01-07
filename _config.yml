@@ -42,7 +42,7 @@ nav:
 
 # Pagination（设置分页）
 gems: [jekyll-paginate]
-paginate: 40
+paginate: 20
 paginate_path: "page/:num/"
 
 
