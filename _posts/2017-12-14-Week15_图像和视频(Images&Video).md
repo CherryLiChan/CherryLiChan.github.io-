@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  图像和视频(Images&Video)
+title:  图像和视频
 date: 2017-12-14 
 tags: 网页设计与制作-笔记
 ---
