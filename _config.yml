@@ -8,10 +8,10 @@ avatarTitle: 161013049
 avatarDesc: 网页设计与制作/信息可视化
 url: "https://cherrylichan.github.io"
 
-# Comment（添加评论系统）
+# Comment（添加评论系统/有言id,登录有言官网申请）
 comment:
     disqus: 161013049
-    # uyan: 2143225  # 有言id,登录有言官网申请
+    uyan: 2154229
 
 # Social
 social:
