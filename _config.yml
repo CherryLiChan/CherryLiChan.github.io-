@@ -2,6 +2,7 @@
 title: 黎婵
 subtitle: 个人blog
 description: 欢迎来到我的个人blog~
+affiliation: 中山大学南方学院 <a href = 'http://wcy.nfu.edu.cn/zh/教学教务/培养方案/网络与新媒体/'>网络与新媒体</a> 培养方案核心课程学期作品，由 <a href='http://wcy.nfu.edu.cn/zh/学院概况/师资队伍/廖汉腾/'>廖汉腾副教授</a> 指导
 # 头像里面的标题
 avatarTitle: 161013049
 # 头像里面的描述
@@ -43,5 +44,7 @@ nav:
 gems: [jekyll-paginate]
 paginate: 5
 paginate_path: "page/:num/"
+
+
 
 
