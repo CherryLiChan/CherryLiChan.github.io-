@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Week12_绘制地图:Pandas,Plotly
+title: 绘制地图2P
 date: 2017-11-24
 tag: 信息可视化设计-笔记
 --- 

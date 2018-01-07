@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Week14_数据可视化协作Tableau
+title: Tableau协作
 date: 2017-12-15
 tag: 信息可视化设计-笔记
 --- 

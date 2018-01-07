@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "高得地图期末作品"
+title: "期末作品"
 date: 2016-04-06 11:25:06 
 description: "关于联想/惠普/华硕/..的可视化分析"
 tag: 信息可视化作品集

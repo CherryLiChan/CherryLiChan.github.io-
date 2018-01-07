@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 第一步 下载与安装
+title: 下载与安装
 date: 2017-12-02 
 tags: 搭建博客那些事儿
 ---

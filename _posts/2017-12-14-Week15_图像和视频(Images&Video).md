@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  Week15_图像和视频(Images&Video)
+title:  图像和视频(Images&Video)
 date: 2017-12-14 
 tags: 网页设计与制作-笔记
 ---
 
-## Week15课堂笔记——WSG4第十二章
+## Week15课堂笔记——WSG4第十二章 图像和视频(Images&Video)
 
 ### 可用网址
 - [简书上媒介融合/媒体融合/全媒体 Media convergence介绍——by喊疼](http://www.jianshu.com/p/fa4f07dcb669)
