@@ -35,9 +35,12 @@ blog_button:
 
 # Navigation buttons in the front page.s
 nav:
-    - {title: 网页设计与制作笔记, description: rwd, url: '/rwd'}   
-    - {title: 信息可视化笔记, description: tags, url: '/tags'}      
-    - {title: 关于我, description: about, url: '/about'}      
+    - {title: 网页设计与制作笔记, description: rwd, url: '/posts/rwd/'}   
+    - {title: 信息可视化笔记, description: posts/infovis, url: '/posts/infovis/'}      
+    - {title: 关于我, description: about, url: '/about'}
+    - {title：web作品集，description：portfolio, url:'/portfolio/}
+    - {title: 信息可视化作品集，description: infovis, url: '/infovis/'}
+    
     
 
 # Pagination（设置分页）
