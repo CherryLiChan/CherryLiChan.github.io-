@@ -5,7 +5,7 @@
    }
    h2, h3 { page-break-after: avoid; }
    
-   nav, aside, section {
+   nav, aside {
       display: none;
    }
 
@@ -22,6 +22,9 @@
 
 header.panel-cover.panel-cover--collapsed {display:none;}
 header {display:none;}
+
+section {display:none;}
+
 
    @page {
       margin: 1cm;
