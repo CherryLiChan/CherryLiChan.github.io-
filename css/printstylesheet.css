@@ -1,0 +1,50 @@
+@media print {
+   h1 {
+      color: #000;
+      background: none;
+   }
+ 
+ 
+   h2, h3 { page-break-after: avoid; }
+ 
+   nav, aside {
+      display: none;
+   }
+ 
+   body, article {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+   }
+ 
+ article {
+   page-break-before: always;
+}
+ 
+   @page {
+      margin: 1cm;
+   }
+
+}
+
+@media print and (color) {
+   * {
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+   }
+}
+
+@media print {
+   article a {
+      font-weight: bolder;
+      text-decoration: none;
+   }
+ 
+   article a[href^=http]:after {
+      content:&quot; &lt;&quot; attr(href) &quot;&gt; &quot;;
+   }
+}
+
+a:not(:local-link):after {
+   content:&quot; &lt;&quot; attr(href) &quot;&gt; &quot;;
+}
