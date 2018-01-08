@@ -4,12 +4,13 @@
       background: none;
    }
  
- 
    h2, h3 { page-break-after: avoid; }
  
-   nav, aside {
+   header, nav, aside, section {
       display: none;
    }
+ 
+   
  
    body, article {
       width: 100%;
