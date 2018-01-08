@@ -10,8 +10,6 @@
       display: none;
    }
  
-   
- 
    body, article {
       width: 100%;
       margin: 0;
@@ -25,8 +23,16 @@
    @page {
       margin: 1cm;
    }
-
+   @page :left {
+      margin-left: 1cm;
 }
+
+   @page :right {
+      margin-left: 1cm;
+}
+}
+
+
 
 @media print and (color) {
    * {
@@ -48,4 +54,8 @@
 
 a:not(:local-link):after {
    content:&quot; &lt;&quot; attr(href) &quot;&gt; &quot;;
+}
+
+@page {
+  size: A4;
 }
