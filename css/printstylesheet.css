@@ -20,6 +20,10 @@
    page-break-before: always;
 }
 
+
+span.mobile.btn-mobile-menu {display:none;}
+span {display:none;}
+
 header.panel-cover.panel-cover--collapsed {display:none;}
 header {display:none;}
 
