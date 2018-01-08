@@ -5,7 +5,7 @@
    }
    h2, h3 { page-break-after: avoid; }
    
-   nav, aside {
+   nav, aside,span {
       display: none;
    }
 
@@ -22,7 +22,7 @@
 
 header.panel-cover.panel-cover--collapsed {display:none;}
 header {display:none;}
-
+section.panel-cover.panel-cover--collapsed {display:none;}
 section {display:none;}
 
 
