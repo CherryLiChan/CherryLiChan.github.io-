@@ -8,8 +8,7 @@
    nav, aside, section {
       display: none;
    }
-   
-header.panel-cover.panel-cover--collapsed
+
    
    body, article, {
       width: 100%;
@@ -55,6 +54,8 @@ header.panel-cover.panel-cover--collapsed
 a:not(:local-link):after {
    content:&quot; &lt;&quot; attr(href) &quot;&gt; &quot;;
 }
+
+header.panel-cover.panel-cover--collapsed
 
 @page {
   size: A4;
