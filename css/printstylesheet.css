@@ -20,6 +20,9 @@
    page-break-before: always;
 }
 
+header.panel-cover.panel-cover--collapsed {display:none;}
+header {display:none;}
+
    @page {
       margin: 1cm;
    }
@@ -31,6 +34,15 @@
    @page :right {
       margin-left: 1cm;
 }
+
+   @page {
+      size: A4;
+}
+
+a:not(:local-link):after {
+   content:&quot; &lt;&quot; attr(href) &quot;&gt; &quot;;
+}
+
 }
 
 @media print and (color) {
@@ -51,12 +63,5 @@
    }
 }
 
-a:not(:local-link):after {
-   content:&quot; &lt;&quot; attr(href) &quot;&gt; &quot;;
-}
 
-header.panel-cover.panel-cover--collapsed
 
-@page {
-  size: A4;
-}
