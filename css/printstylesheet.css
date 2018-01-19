@@ -1,0 +1,75 @@
+@media print {
+   h1 {
+      color: #000;
+      background: none;
+   }
+   h2, h3 { page-break-after: avoid; }
+   
+   nav, aside,span {
+      display: none;
+   }
+
+   
+   body, article, {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+   }
+   
+ article {
+   page-break-before: always;
+}
+
+
+span.mobile.btn-mobile-menu {display:none;}
+span {display:none;}
+
+header.panel-cover.panel-cover--collapsed {display:none;}
+header {display:none;}
+
+section.footer {display:none;}
+section {display:none;}
+
+
+   @page {
+      margin: 1cm;
+   }
+   
+   @page :left {
+      margin-left: 1cm;
+}
+
+   @page :right {
+      margin-left: 1cm;
+}
+
+   @page {
+      size: A4;
+}
+
+a:not(:local-link):after {
+   content:&quot; &lt;&quot; attr(href) &quot;&gt; &quot;;
+}
+
+}
+
+@media print and (color) {
+   * {
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+   }
+}
+
+@media print {
+   article a {
+      font-weight: bolder;
+      text-decoration: none;
+   }
+ 
+   article a[href^=http]:after {
+      content:&quot; &lt;&quot; attr(href) &quot;&gt; &quot;;
+   }
+}
+
+
+
