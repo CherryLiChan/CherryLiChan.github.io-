@@ -1,8 +1,11 @@
 ---
-layout: post
-title: 开发常用工具
-date: 2016-06-02 11:15:06 
-tag: 工具
+layout: article
+title:  "开发常用工具"
+date:   2016-06-02 11:15:06 +0800
+categories: posts
+image:
+  teaser: 开发常用工具.jpg
+  feature: 开发常用工具.jpg
 ---
 
 工欲善其事必先利其器，选择一些好的工具可以成吨的提高自己的工作效率。

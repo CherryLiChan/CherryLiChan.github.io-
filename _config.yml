@@ -1,67 +1,28 @@
 # Site wide configuration
 
-# Basic（标题/副标题/描述）
-title: 黎婵
-subtitle: 个人blog
-description: 欢迎来到我的个人blog~
-affiliation: 中山大学南方学院 <a href = 'http://wcy.nfu.edu.cn/zh/教学教务/培养方案/网络与新媒体/'>网络与新媒体</a> 培养方案核心课程学期作品，由 <a href='http://wcy.nfu.edu.cn/zh/学院概况/师资队伍/廖汉腾/'>廖汉腾副教授</a> 指导
+title: "Cherry婵 个人学习博客"
+description: "返回主页"
+logo: # 120x120 px default image used for Twitter summary card
+teaser: # 400x250 px default teaser image used in image archive grid
 locale: zh_CN 
-# 头像里面的标题
-avatarTitle: 161013049
-# 头像里面的描述
-avatarDesc: 网页设计与制作/信息可视化
-url: "https://cherrylichan.github.io"
+url:
+feed:
+  path: atom.xml
 
 # Jekyll configuration
 
 sass:
   sass_dir: _sass
   style: compressed
-
 permalink: /:categories/:title/
 kramdown:
   toc_levels: 1..2
-
-
-
-# Comment（添加评论系统/有言id,登录有言官网申请）
-comment:
-    disqus: #需要翻墙注册
-    uyan: 2154229
-
-# Social
-social:
-    weibo: 949524419@qq.com 
-    github: cherrylichan
-    mail: 1161046889@qq.com
-
-# Format  荧光笔是圆的 
 highlighter: rouge
-
-textColor: #FF0000
-
-# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
-cover_color: clear
-
-# The blog button should not be removed.
-blog_button:
-    title: 博客主页
-
-# Navigation buttons in the front page.s
-nav:
-    - {title: 网页设计与制作笔记, description: posts/rwd, url: '/posts/rwd/'}   
-    - {title: 信息可视化笔记, description: posts/infovis, url: '/posts/infovis/'}      
-    - {title: 信息可视化作品集，description: infovis, url: '/infovis/'}
-    - {title: web作品集，description: portfolio, url: '/portfolio/'}
-    - {title: 关于我, description: about, url: '/about'}
-
-# Pagination（设置分页）
-gems: [jekyll-paginate]
+gems:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
-paginate: 20
-paginate_path: "page/:num/"
+
 
 # Site owner
 owner:
@@ -101,6 +62,3 @@ exclude:
   - package.json
   - spec
   - tmp
-
-
-
